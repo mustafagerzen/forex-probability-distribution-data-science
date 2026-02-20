@@ -73,35 +73,11 @@ Output descriptive statistics
 
 Log returns are computed as:
 
-𝑟
-𝑡
-=
-ln
-⁡
-(
-𝑃
-𝑡
-𝑃
-𝑡
-−
-1
-)
-r
-t
-	​
+**rₜ = ln(Pₜ / Pₜ₋₁)**
 
-=ln(
-P
-t−1
-	​
-
-P
-t
-	​
-
-	​
-
-)
+where:
+- **Pₜ** is the exchange rate at time *t*
+- **Pₜ₋₁** is the exchange rate at time *t−1*
 
 They are preferred in finance because they:
 
